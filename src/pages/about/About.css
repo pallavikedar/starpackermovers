@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.About_Wrapper {
+  background-image: url(../../Assets/images/Group\ 57.svg);
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  width: 100%;
+  object-fit: fill;
+}
+.about_heading {
+  font-weight: 900;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about_heading h1 {
+  font-size: 45px;
+  border-bottom: 3px solid black;
+}
+.About_content {
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 0px 0px 40px 0px;
+}
+.About_content ul {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.About_content li {
+  color: #4e4c4c;
+  font-weight: 600;
+  font-size: 18px;
+  width: 800px;
+  text-align: justify;
+}
+.About_content li b {
+  font-size: 24px;
+}
+.About_content li p {
+  font-size: 18px;
+}
+.About_logoes {
+  display: flex;
+  justify-content: space-evenly;
+  height: 700px;
+  width: 100%;
+  align-items: center;
+}
+.About_isologo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  width: 420px;
+  height: 420px;
+}
+.About_logoes img {
+  height: 93%;
+  width: 100%;
+}
+
+.About_isologo p {
+  font-size: 26px;
+  font-weight: 600;
+  color: #000000;
+  text-align: center;
+}
+#iso {
+  margin-top: 40px;
+}
+@media screen and (max-width: 425px) {
+  /* .About_Wrapper {
+    background-position: center;
+    background-repeat: no-repeat;
+  } */
+
+  .about_heading {
+    font-size: 26px;
+    height: 75px;
+  }
+  .About_content li b {
+    font-size: 18px;
+  }
+  .About_content ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 17px;
+  }
+  .About_content li {
+    font-size: 14px;
+    width: 100%;
+    list-style-type: none;
+  }
+  .About_content li p {
+    font-size: 12px;
+  }
+  .About_logoes {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+  }
+  .About_isologo {
+    height: 200px;
+    width: 200px;
+    gap: 10px;
+  }
+  .About_logoes img {
+    height: 100%;
+    width: 100%;
+  }
+  .About_isologo p {
+    font-size: 12px;
+  }
+  #iso {
+    margin-top: 0px;
+  }
+}
+@media (min-width: 424px) and (max-width: 768px) {
+  .about_heading {
+    font-size: 6vw;
+  }
+  .About_content ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 16px;
+  }
+  .About_content li b {
+    font-size: 22px;
+  }
+  .About_content li {
+    font-size: 14px;
+    padding: 5px;
+    width: 100%;
+    list-style-type: none;
+  }
+  .About_content li p {
+    font-size: 13px;
+  }
+  .About_logoes {
+    display: flex;
+    flex-direction: column;
+  }
+  .About_isologo {
+    height: 300px;
+    width: 300px;
+  }
+  .About_logoes img {
+    height: 100%;
+    width: 100%;
+  }
+  .About_isologo p {
+    font-size: 12px;
+  }
+  #iso {
+    margin-top: 0px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .About_content li {
+    font-size: 17px;
+    width: 100%;
+  }
+}

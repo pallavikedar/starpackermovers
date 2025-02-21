@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.card {
+  --hover-text: #e50087;
+  text-align: center;
+  background: var(--bg);
+  padding: 1.5em;
+  padding-block: 1.8em;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s cubic-bezier(0.6, 0.4, 0, 1), transform 0.15s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  height: 300px;
+  width: 300px;
+  margin-left: 20px;
+}
+.card img {
+  height: 300px;
+  width: 300px;
+}
+
+.card span {
+  position: absolute;
+  inset: 0;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--hover-text);
+  border-radius: 20px;
+  font-weight: bold;
+  top: 100%;
+  transition: all 0.3s cubic-bezier(0.6, 0.4, 0, 1);
+  background-color: rgba(185, 185, 185, 0.375);
+}
+
+.card:hover span {
+  top: 0;
+  font-size: 1.2em;
+  /* opacity: 0.8; */
+}
+.service_cards {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  align-items: center;
+  height: 90%;
+  /* background: #000; */
+  flex-wrap: wrap;
+}
+.card button{
+  padding: 8px;
+  border-radius: 41px;
+  font-family: system-ui;
+  font-weight: 600;
+  font-size: 1em;
+  border: none;
+  color: white;
+  background: linear-gradient(
+    90deg,
+    rgba(238, 230, 0, 0.885) 27%,
+    rgba(254, 122, 45, 0.866) 100%
+  );
+  
+}
+.last{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.last button{
+  width: 90px;
+  padding: 8px;
+  border-radius: 41px;
+  font-family: system-ui;
+  font-weight: 600;
+  font-size: 1em;
+  border: none;
+  color: black;
+  background-color: white;
+  box-shadow: 0 0 10px 5px gainsboro;
+  
+}
+.h{
+  text-align: center;
+  color: #505f82;
+  text-decoration: underline;
+}
+@media only screen and (max-width: 430px) {
+
+  .card{
+    height: 200px;
+    width: 200px;
+   
+  }
+  .card img {
+    height: 200px;
+    width: 200px;
+  }
+  .h{
+    font-size: 32px;
+  }
+  .card button{
+   margin-top: -70px;
+   margin-left: -90px;
+  }
+}
+
+@media (min-width: 429px) and (max-width: 768px) {
+  .card{
+    height: 200px;
+    width: 200px;
+   
+  }
+  .card img {
+    height: 200px;
+    width: 200px;
+  }
+  .h{
+    font-size: 32px;
+  }
+  .card button{
+    margin-top: -70px;
+    margin-left: -90px;
+   }
+}
