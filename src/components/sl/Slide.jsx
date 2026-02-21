@@ -23,19 +23,17 @@ function Slider() {
 
 
     useEffect(() => {
-        const intervalId = setInterval(() => {
+    if (pause) return;
 
-            if (!pause) {
-                setValue((prevValue) => (prevValue + 100) % (slides.length * 100));
-                // console.log(value)
-            }
+    const intervalId = setInterval(() => {
+        setValue((prevValue) =>
+            (prevValue + 100) % (slides.length * 100)
+        );
+    }, 3000);
 
-        }, 3000);
-        return () => {
-            clearInterval(intervalId)
+    return () => clearInterval(intervalId);
 
-        }
-    }, [value, pause]);
+}, [pause, slides.length]);
 
     const onMouseEnter = () => {
         setPause(true);

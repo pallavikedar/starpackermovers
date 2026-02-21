@@ -6,13 +6,13 @@ import emailjs from '@emailjs/browser';
 
 
 function Quatation() {
-    const [formData, setFormData] = useState([]);
-    const navigate = useNavigate()
-    const [prev, setprev] = useState([]);
-    const [nameError, setNameError] = useState("");
-    const [PhoneError, setPhoneError] = useState("");
-    const [fromError, setFromError] = useState("");
-    const [ToError, setToError] = useState("");
+    // const [formData, setFormData] = useState([]);
+    // const navigate = useNavigate()
+    // const [prev, setprev] = useState([]);
+    // const [nameError, setNameError] = useState("");
+    // const [PhoneError, setPhoneError] = useState("");
+    // const [fromError, setFromError] = useState("");
+    // const [ToError, setToError] = useState("");
 
     useEffect(() => {
     }, [])
@@ -31,20 +31,20 @@ function Quatation() {
         }
     }
 
-    function handlechange(e) {
-        const { name, value } = e.target;
-        setFormData(prevState => ({
-            ...prevState,
-            [name]: value
-        }));
-    }
-    function handleSubmit(e) {
-        e.preventDefault()
-        setFormData()
-        axios.post('http://localhost/api/api.php', formData)
-        navigate('/')
-        console.log(formData)
-    }
+    // function handlechange(e) {
+    //     const { name, value } = e.target;
+    //     setFormData(prevState => ({
+    //         ...prevState,
+    //         [name]: value
+    //     }));
+    // }
+    // function handleSubmit(e) {
+    //     e.preventDefault()
+    //     setFormData()
+    //     axios.post('http://localhost/api/api.php', formData)
+    //     navigate('/')
+    //     console.log(formData)
+    // }
 
 
     const form = useRef();

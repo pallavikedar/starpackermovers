@@ -8,9 +8,10 @@ import Showquat from "../../components/Equiry/Showquat";
 const Login = ({setValid,valid}) => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
-  const [loggedIn, setLoggedIn] = useState(false);
+  
+  
   const [error, setError] = useState("");
-  const navigate = useNavigate();
+
   const handleLogin = () => {
     
     if (username.trim() === "" || password.trim() === "") {
