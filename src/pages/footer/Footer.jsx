@@ -34,10 +34,9 @@ function Footer() {
             <div className={style.flogo}>
                 <img src={logo} alt="" />
                 <address>
-                    Star Packers and Movers Plot no. 7,<br />
-                    Sant Gyaneshwar Society, <br />
-                    Beside Patel Wine shop Dattawadi,<br />
-                    Nagpur -440023 <br />
+                    Star Packers and Movers Plot no. 23,<br />
+                    Amravati Rd, Duttawadi <br />
+                  Nagpur, Maharashtra 440021 <br />
                     <b>8888871288 /8806317370</b>
                 </address>
             </div>
