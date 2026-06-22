@@ -56,7 +56,7 @@ Dattawadi <br /> Nagpur-440023, Maharashtra
         <div className="google_map">
           <iframe
             title="Starmover"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3721.0073299676537!2d78.996787075035!3d21.152106580528237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4ea8d6e2479f1%3A0xe6fd30940f203de1!2sShri%20Sai%20Hardware!5e0!3m2!1sen!2sin!4v1705997230327!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3536.8970660524333!2d78.99650937503502!3d21.152019580528297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4ebcda400ad0d%3A0x87b0ec1cc7c6eba4!2sStar%20Packers%20And%20Movers%20Nagpur!5e1!3m2!1sen!2sin!4v1782129154815!5m2!1sen!2sin"
             style={{ border: "0px", borderRadius: "20px" }}
             allowfullscreen=""
             loading="lazy"
