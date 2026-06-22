@@ -22,8 +22,11 @@ function Contact() {
           <div>
             <h2>Location</h2>
             <p>
-              Star Packers and Movers Plot no. 23, <br />
-             Amravati Rd, Duttawadi <br /> Nagpur, Maharashtra 440021
+              Star Packers and Movers Plot no. 7, <br />
+            Sant Gyaneshwar Society 
+Beside Patel Wine shop
+Dattawadi <br /> Nagpur-440023, Maharashtra 
+             
             </p>
           </div>
           <div className="SocialIcon">
